@@ -1,0 +1,39 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.hero p:nth-child(1) {
+  text-align: center;
+}
+
+.hero p:nth-child(2) {
+  text-wrap: balance;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 200;
+  margin: 0;
+  color: #ffffff;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+}
+
+.introduction span {
+  font-size: 10rem;
+  font-weight: lighter;
+}
+
+.main span,
+.nav span {
+  color: #ffa800;
+}

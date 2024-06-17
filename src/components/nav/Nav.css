@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 0 12% 0;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav div {
+  display: flex;
+}
+
+.nav h1 {
+  font-size: 1rem;
+  color: #ffffff;
+}
