@@ -1,0 +1,13 @@
+.work {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.work-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+  gap: 0.5rem;
+}

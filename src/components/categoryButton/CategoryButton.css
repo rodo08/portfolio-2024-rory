@@ -1,0 +1,15 @@
+.category-button {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #848484;
+  transition: font-style 0.3s ease, transform 0.3s ease;
+}
+
+.category-button span {
+  color: #ffa800;
+}
+
+.category-button:hover {
+  color: rgb(255, 255, 255);
+  transform: skewX(-15deg);
+}

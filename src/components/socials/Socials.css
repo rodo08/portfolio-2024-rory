@@ -1,0 +1,16 @@
+.icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.icons li {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.icons li:hover {
+  scale: 1.3;
+}
