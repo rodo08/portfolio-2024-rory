@@ -1,12 +1,10 @@
 import Brands from "../../components/brands/Brands";
-import Nav from "../../components/nav/Nav";
 import WorkLinks from "../../components/workLinks/WorkLinks";
 import "./HomeView.css";
 
 const HomeView = () => {
   return (
     <>
-      <Nav />
       <main className="main">
         <section className="hero">
           <div>
