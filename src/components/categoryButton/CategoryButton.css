@@ -2,7 +2,7 @@
   font-weight: 300;
   font-size: 3rem;
   color: #848484;
-  transition: font-style 0.3s ease, transform 0.3s ease;
+  transition: 0.3s ease, transform 0.3s ease;
 }
 
 .category-button span {

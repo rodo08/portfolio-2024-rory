@@ -30,6 +30,7 @@ const WebProjectsView = () => {
             figcaption={"Memerize"}
             paragraph={"Simple memory matching game featuring meme images"}
             alt={"tarot app image"}
+            url={"https://memerize.netlify.app/"}
           />
           <WebProjectCard
             img={
@@ -40,6 +41,7 @@ const WebProjectsView = () => {
               "Tarot app: insightful, intuitive readings at your fingertips"
             }
             alt={"tarot app image"}
+            url={"https://apptomancy.netlify.app/"}
           />
           <WebProjectCard
             img={
@@ -50,6 +52,7 @@ const WebProjectsView = () => {
               "A shopping app to list, filter, check, and delete items effortlessly"
             }
             alt={"Shoplistify image"}
+            url={"https://shoplistify.netlify.app/"}
           />
           <WebProjectCard
             img={
@@ -60,6 +63,7 @@ const WebProjectsView = () => {
               "Food subscription service. Responsive web design for academics"
             }
             alt={"Omnifood image"}
+            url={"https://cssprojectomnifood.netlify.app/"}
           />
           <WebProjectCard
             img={
@@ -70,6 +74,7 @@ const WebProjectsView = () => {
               "PokeAPI-based app listing the first 151 Pokémon. Filter by type"
             }
             alt={"Pokedex image"}
+            url={"https://rrm-pokedex.netlify.app/"}
           />
         </ul>
 
