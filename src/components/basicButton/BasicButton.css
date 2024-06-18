@@ -1,0 +1,22 @@
+.basic-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.basic-button {
+  color: #848484;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: font-style 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.basic-button:hover {
+  color: #fff;
+  transform: skewX(-15deg);
+}
+.basic-button span {
+  color: #ffa800;
+}

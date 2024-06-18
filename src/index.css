@@ -31,7 +31,12 @@ h1 {
 }
 button {
   all: unset;
+  color: #ffffff;
   box-sizing: border-box;
   display: inline-block;
   cursor: pointer;
+}
+p {
+  text-wrap: balance;
+  color: #ffffff;
 }
