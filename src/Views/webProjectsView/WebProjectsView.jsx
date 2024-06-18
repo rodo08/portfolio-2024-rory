@@ -1,8 +1,14 @@
+import "./WebProjectsView.css";
 import BasicButton from "../../components/basicButton/BasicButton";
 import WebProjectCard from "../../components/webProjectCard/WebProjectCard";
-import "./WebProjectsView.css";
+import { useNavigate } from "react-router-dom";
 
 const WebProjectsView = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("/");
+  };
+
   return (
     <>
       <section className="web-projects">
@@ -72,7 +78,7 @@ const WebProjectsView = () => {
         </h1>
       </section>
 
-      <BasicButton text="goBack" />
+      <BasicButton text="goBack" handleClick={handleGoBack} />
     </>
   );
 };
