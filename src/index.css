@@ -20,6 +20,12 @@ h1 {
   font-family: inherit;
   font-weight: lighter;
 }
+h2 {
+  color: #ffa800;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.3rem;
+}
 .app {
   min-height: 100vh;
   display: flex;

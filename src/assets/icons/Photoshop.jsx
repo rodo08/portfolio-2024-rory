@@ -1,4 +1,4 @@
-export function Photoshop(props) {
+const Photoshop = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,5 @@ export function Photoshop(props) {
       ></path>
     </svg>
   );
-}
+};
+export default Photoshop;

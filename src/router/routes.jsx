@@ -4,6 +4,7 @@ import HomeView from "../Views/homeView/HomeView";
 import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import DesignSamples from "../components/designSamples/DesignSample";
+import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
 import { Outlet } from "react-router-dom";
 
 const routes = [
@@ -29,7 +30,7 @@ const routes = [
           },
           {
             path: "pizza-hut",
-            element: <DesignSamples />,
+            element: <PizzaHutSamples />,
           },
           {
             path: "tena",
