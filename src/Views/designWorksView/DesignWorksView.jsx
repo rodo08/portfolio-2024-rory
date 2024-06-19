@@ -1,13 +1,17 @@
 import { useNavigate } from "react-router-dom";
 import ProjectHeader from "../../components/projectHeader/ProjectHeader";
-import ProjectCard from "../../components/projectCard/ProjectCard";
 import BasicButton from "../../components/basicButton/BasicButton";
+import DesignSampleCard from "../../components/brandCard/BrandCard";
 
 const DesignWorksView = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {
     navigate("/");
   };
+  const handleGoPizzaHut = () => {
+    navigate("pizza-hut");
+  };
+
   return (
     <>
       <section className="projects-container">
@@ -18,62 +22,63 @@ const DesignWorksView = () => {
           }
         />
         <ul className="projects-list">
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/CGKcb1T.png"}
             height={100}
             width={100}
+            onGoTo={handleGoPizzaHut}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/2LFE6GC.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/WtwMkY1.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/UFBLjdo.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/LQ7Q0Vz.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/e4APU3Y.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/uVFnxaX.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/LeacJlX.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/td57onP.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/tn1hEGl.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/c86JjBU.png"}
             height={100}
             width={100}
           />
-          <ProjectCard
+          <DesignSampleCard
             img={"https://imgur.com/Zhfanis.png"}
             height={100}
             width={100}

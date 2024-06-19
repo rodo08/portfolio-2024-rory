@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import HomeView from "../Views/homeView/HomeView";
 import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
+import DesignSamples from "../components/designSamples/DesignSample";
+import { Outlet } from "react-router-dom";
 
 const routes = [
   {
@@ -19,7 +21,17 @@ const routes = [
       },
       {
         path: "design-works",
-        element: <DesignWorksView />,
+        element: <Outlet />,
+        children: [
+          {
+            path: "",
+            element: <DesignWorksView />,
+          },
+          {
+            path: "pizza-hut",
+            element: <DesignSamples />,
+          },
+        ],
       },
     ],
   },
