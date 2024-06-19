@@ -31,6 +31,50 @@ const routes = [
             path: "pizza-hut",
             element: <DesignSamples />,
           },
+          {
+            path: "tena",
+            element: <DesignSamples />,
+          },
+          {
+            path: "loreal",
+            element: <DesignSamples />,
+          },
+          {
+            path: "fridays",
+            element: <DesignSamples />,
+          },
+          {
+            path: "entel",
+            element: <DesignSamples />,
+          },
+          {
+            path: "mamut",
+            element: <DesignSamples />,
+          },
+          {
+            path: "schopdog",
+            element: <DesignSamples />,
+          },
+          {
+            path: "banco-estado",
+            element: <DesignSamples />,
+          },
+          {
+            path: "udla",
+            element: <DesignSamples />,
+          },
+          {
+            path: "ventisquero",
+            element: <DesignSamples />,
+          },
+          {
+            path: "capel",
+            element: <DesignSamples />,
+          },
+          {
+            path: "green-lion",
+            element: <DesignSamples />,
+          },
         ],
       },
     ],
