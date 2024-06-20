@@ -6,7 +6,7 @@ import DesignSampleCard from "../../components/brandCard/BrandCard";
 const DesignWorksView = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {
-    navigate("/");
+    navigate("../");
   };
   const handleGoPizzaHut = () => {
     navigate("pizza-hut");

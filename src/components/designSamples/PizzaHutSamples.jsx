@@ -14,9 +14,12 @@ const PizzaHutSamples = () => {
       summary={
         "I created and developed graphics for restaurants and mass media, collaborating with the marketing team to ensure effective brand communication. My work included logos, promotional materials, social media graphics, website banners, menu boards, and table tents."
       }
-      url={
-        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8d4a0b10523755.5a70af4976340.jpg"
-      }
+      url1={"https://imgur.com/ZWNOZT1.png"}
+      url2={"https://imgur.com/s21ZEdK.png"}
+      url3={"https://imgur.com/t7v1c4X.png"}
+      url4={"https://imgur.com/aFH2QD4.png"}
+      url5={"https://imgur.com/azgGuIu.png"}
+      url6={"https://imgur.com/uihCtFs.png"}
     />
   );
 };
