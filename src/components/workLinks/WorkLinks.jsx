@@ -7,6 +7,9 @@ const WorkLinks = () => {
   const handleWebProjects = () => {
     navigate("web-projects");
   };
+  const handleDesignWorks = () => {
+    navigate("design-works");
+  };
 
   return (
     <section className="work">
@@ -14,7 +17,7 @@ const WorkLinks = () => {
         <li onClick={handleWebProjects}>
           <CategoryButton text="webProjects" />
         </li>
-        <li>
+        <li onClick={handleDesignWorks}>
           <CategoryButton text="designWorks" />
         </li>
         <li>

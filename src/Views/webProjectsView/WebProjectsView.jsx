@@ -1,7 +1,8 @@
 import "./WebProjectsView.css";
 import BasicButton from "../../components/basicButton/BasicButton";
-import WebProjectCard from "../../components/webProjectCard/WebProjectCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 import { useNavigate } from "react-router-dom";
+import ProjectHeader from "../../components/projectHeader/ProjectHeader";
 
 const WebProjectsView = () => {
   const navigate = useNavigate();
@@ -11,19 +12,16 @@ const WebProjectsView = () => {
 
   return (
     <>
-      <section className="web-projects">
-        <h1>
-          <span>&#34;</span>webProjects<span>&#34;</span> : <span>&#91;</span>
-        </h1>
-        <p className="projects-summary">
-          <span>&#47; *</span>
-          Explore my web portfolio featuring a range of projects, from stylish
-          websites to dynamic web apps.
-          <span> *&#47;</span>
-        </p>
+      <section className="projects-container">
+        <ProjectHeader
+          categoryTitle={"webProjects"}
+          categoryDescription={
+            "Explore my web portfolio featuring a range of projects, from stylish websites to dynamic web apps."
+          }
+        />
 
         <ul className="projects-list">
-          <WebProjectCard
+          <ProjectCard
             img={
               "https://www.researchgate.net/profile/Giulia-Bini/publication/331639939/figure/fig2/AS:734865725063171@1552217050976/Template-and-propagation-of-the-Success-Kid-meme-source-Google-search-Sept-18.jpg"
             }
@@ -31,8 +29,10 @@ const WebProjectsView = () => {
             paragraph={"Simple memory matching game featuring meme images"}
             alt={"tarot app image"}
             url={"https://memerize.netlify.app/"}
+            height={120}
+            width={120}
           />
-          <WebProjectCard
+          <ProjectCard
             img={
               "https://apptomancy.netlify.app/assets/logo-tarot-01-Boq0li0P.png"
             }
@@ -42,8 +42,10 @@ const WebProjectsView = () => {
             }
             alt={"tarot app image"}
             url={"https://apptomancy.netlify.app/"}
+            height={120}
+            width={120}
           />
-          <WebProjectCard
+          <ProjectCard
             img={
               "https://media01.stockfood.com/previews/MTM0NDAyODgw/11200240.jpg"
             }
@@ -53,8 +55,10 @@ const WebProjectsView = () => {
             }
             alt={"Shoplistify image"}
             url={"https://shoplistify.netlify.app/"}
+            height={120}
+            width={120}
           />
-          <WebProjectCard
+          <ProjectCard
             img={
               "https://img.freepik.com/free-photo/flat-lay-delicious-healthy-food-concept_23-2148648502.jpg"
             }
@@ -64,8 +68,10 @@ const WebProjectsView = () => {
             }
             alt={"Omnifood image"}
             url={"https://cssprojectomnifood.netlify.app/"}
+            height={120}
+            width={120}
           />
-          <WebProjectCard
+          <ProjectCard
             img={
               "https://img1.yeggi.com/page_images_cache/6283278_2d-wall-decoration-pokemon-pikachu-half-face-3d-printer-model-to-downl"
             }
@@ -75,6 +81,8 @@ const WebProjectsView = () => {
             }
             alt={"Pokedex image"}
             url={"https://rrm-pokedex.netlify.app/"}
+            height={120}
+            width={120}
           />
         </ul>
 

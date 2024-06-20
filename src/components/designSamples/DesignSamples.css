@@ -1,0 +1,33 @@
+.design-sample h1 {
+  font-size: 2rem;
+  padding: 0 0 1rem 0;
+}
+
+.design-sample span {
+  color: #ffa800;
+}
+.design-sample span:nth-child(3),
+.design-sample span:last-child {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.design-sample p {
+  font-weight: 300;
+}
+.design-sample img {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.design-stack {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.back-design-works {
+  display: flex;
+  align-items: end;
+  padding: 1rem 0 3rem 0;
+}

@@ -8,15 +8,15 @@
   color: #ad9c7c;
 }
 
-.web-projects h1 {
+.projects-container h1 {
   font-weight: 300;
   font-size: 2rem;
 }
 
-.web-projects h1:first-child {
+.projects-container h1:first-child {
   padding: 0 0 0.5rem 0;
 }
 
-.web-projects span {
+.projects-container span {
   color: #ffa800;
 }
