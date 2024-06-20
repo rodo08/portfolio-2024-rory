@@ -6,6 +6,7 @@ import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import DesignSamples from "../components/designSamples/DesignSample";
 import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
 import { Outlet } from "react-router-dom";
+import AboutMeView from "../Views/aboutMeview/AboutMeView";
 
 const routes = [
   {
@@ -19,6 +20,10 @@ const routes = [
       {
         path: "web-projects",
         element: <WebProjectsView />,
+      },
+      {
+        path: "about-me",
+        element: <AboutMeView />,
       },
       {
         path: "design-works",

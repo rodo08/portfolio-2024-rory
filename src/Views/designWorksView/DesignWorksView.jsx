@@ -1,3 +1,4 @@
+import "./DesignWorksView.css";
 import { useNavigate } from "react-router-dom";
 import ProjectHeader from "../../components/projectHeader/ProjectHeader";
 import BasicButton from "../../components/basicButton/BasicButton";
