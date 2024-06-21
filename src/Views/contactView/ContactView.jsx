@@ -1,7 +1,18 @@
 import "./ContactView.css";
+import { useNavigate } from "react-router-dom";
 import BasicButton from "../../components/basicButton/BasicButton";
 
 const ContactView = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("../");
+  };
+
+  const sendMessage = (e) => {
+    e.preventDefault();
+    console.log("test");
+  };
+
   return (
     <>
       <section className="contact">
@@ -28,11 +39,11 @@ const ContactView = () => {
           <div>
             <label htmlFor="">Message</label>
             <textarea id="message" name="message" rows="5"></textarea>
-            <BasicButton text="send message" />
+            <BasicButton text="send message" handleClick={sendMessage} />
           </div>
         </form>
         <div>
-          <BasicButton text="goBack" />
+          <BasicButton text="goBack" handleClick={handleGoBack} />
         </div>
       </section>
     </>
