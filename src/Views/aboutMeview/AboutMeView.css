@@ -64,3 +64,17 @@
   font-size: 3rem;
   font-weight: 300;
 }
+
+@media (max-width: 750px) {
+  .profile {
+    grid-template-columns: 1fr;
+  }
+
+  .stack-icons {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .about-me {
+    padding: 2rem 0 0 0;
+  }
+}
