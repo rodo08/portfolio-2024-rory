@@ -43,3 +43,51 @@
 .nav span {
   color: #ffa800;
 }
+
+@media (max-width: 750px) {
+  .about-me > div:last-child {
+    padding: 2rem 0 0 0;
+  }
+
+  .main {
+    padding: 2rem 0;
+  }
+
+  .nav h1 {
+    font-size: 0.9rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .introduction {
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+  }
+  .introduction span {
+    font-size: 2rem;
+    align-self: baseline;
+  }
+  .introduction span:nth-of-type(2) {
+    align-self: self-end;
+  }
+
+  .brands-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 1.5rem;
+    padding: 0 0 4rem 0;
+  }
+  .category-button {
+    font-size: 2.5rem;
+  }
+  .work {
+    justify-content: center;
+  }
+  .brands h3 {
+    padding: 2.5rem 0 2.5rem 0;
+  }
+}

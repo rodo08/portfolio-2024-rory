@@ -42,6 +42,9 @@ button {
   display: inline-block;
   cursor: pointer;
 }
+button:active {
+  color: #ffa800;
+}
 p {
   text-wrap: balance;
   color: #ffffff;
