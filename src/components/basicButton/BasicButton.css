@@ -20,3 +20,9 @@
 .basic-button span {
   color: #ffa800;
 }
+
+@media (max-width: 750px) {
+  .basic-button-container {
+    padding: 0 0 2rem 0;
+  }
+}
