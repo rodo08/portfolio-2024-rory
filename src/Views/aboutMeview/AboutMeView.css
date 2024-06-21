@@ -1,0 +1,61 @@
+.about-me {
+  margin-top: auto;
+  padding-bottom: 6em;
+}
+.about-me h1 {
+  font-size: 2rem;
+  padding: 0 0 1rem 0;
+  display: flex;
+}
+.about-me span {
+  color: #ffa800;
+}
+.profile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2.5rem;
+}
+.profile-description h2,
+.profile-skills h2 {
+  padding: 0 0 0.8rem 0;
+}
+.profile-description img {
+  width: 100%;
+  padding: 1rem;
+}
+.stack-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.icons-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curriculum-vitae {
+  padding: 1.5rem 0 0 0;
+}
+
+.cv-button {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  align-items: center;
+  gap: 1.5rem;
+  color: #848484;
+  transition: 0.3s ease, transform 0.3s ease;
+}
+
+.cv-button:hover {
+  color: rgb(255, 255, 255);
+  transform: skewX(-15deg);
+}
+
+.cv-button span {
+  color: #ffa800;
+  font-size: 3rem;
+  font-weight: 300;
+}
