@@ -1,6 +1,6 @@
 .about-me {
   margin-top: auto;
-  padding-bottom: 6em;
+  padding-bottom: 4em;
 }
 .about-me h1 {
   font-size: 2rem;
@@ -10,6 +10,11 @@
 .about-me span {
   color: #ffa800;
 }
+
+.about-me > div:last-child {
+  padding: 2rem 0 0 0;
+}
+
 .profile {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

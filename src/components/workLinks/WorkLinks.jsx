@@ -13,6 +13,9 @@ const WorkLinks = () => {
   const handleAboutMe = () => {
     navigate("about-me");
   };
+  const handleContact = () => {
+    navigate("contact");
+  };
 
   return (
     <section className="work">
@@ -26,7 +29,7 @@ const WorkLinks = () => {
         <li onClick={handleAboutMe}>
           <CategoryButton text="aboutMe" />
         </li>
-        <li>
+        <li onClick={handleContact}>
           <CategoryButton text="contact" />
         </li>
       </ul>
