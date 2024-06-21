@@ -1,9 +1,10 @@
 .about-me {
   margin-top: auto;
+  padding-bottom: 6em;
 }
 .about-me h1 {
   font-size: 2rem;
-  padding: 0 0 2.5rem 0;
+  padding: 0 0 1rem 0;
   display: flex;
 }
 .about-me span {
@@ -44,7 +45,15 @@
   font-weight: lighter;
   align-items: center;
   gap: 1.5rem;
+  color: #848484;
+  transition: 0.3s ease, transform 0.3s ease;
 }
+
+.cv-button:hover {
+  color: rgb(255, 255, 255);
+  transform: skewX(-15deg);
+}
+
 .cv-button span {
   color: #ffa800;
   font-size: 3rem;

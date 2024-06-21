@@ -23,17 +23,17 @@ const AboutMeView = () => {
     <>
       <section className="about-me">
         <h1>
-          <span> &lt;!-- </span> aboutMe <span> --&gt; </span>
+          <span> &lt;!-- </span> aboutMe <span>--&gt;</span>
         </h1>
         <aside className="profile">
           <div className="profile-description">
             <h2>Hi, I&apos;m Rodrigo!</h2>
             <p>
               a Web Developer and Designer with a background as an Art Director.
-              My blend of creativity and technical expertise drives unique,
-              functional designs. I&apos;m passionate about solving challenges
-              at the intersection of design and programming, with a focus on
-              adaptability and attention to detail. <br />
+              My blend of creativity and technical expertise drives attractive
+              and functional designs. I&apos;m passionate about solving
+              challenges at the intersection of design and programming, with a
+              focus on adaptability and attention to detail. <br />
               <br /> I trained as a Graphic and Web Designer and have experience
               working in design studios, advertising, and marketing agencies in
               Chile. I further honed my programming skills in Barcelona.
@@ -42,8 +42,10 @@ const AboutMeView = () => {
             </p>
 
             <div className="curriculum-vitae">
-              <h2>Get My CV and Cover Letter for Additional Information</h2>
-              <a href="#">
+              <a
+                href="../src/assets/docs/Rodrigo_Rosales_Moya_CV_2024.pdf"
+                download
+              >
                 <button>
                   <div className="cv-button">
                     <span>&#91;</span> Download CV <span>&#93;</span>
