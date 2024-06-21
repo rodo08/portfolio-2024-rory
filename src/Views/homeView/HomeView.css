@@ -50,7 +50,7 @@
   }
 
   .main {
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
   }
 
   .nav h1 {
@@ -65,7 +65,6 @@
   }
   .introduction {
     flex-direction: column;
-    padding: 0 0 2rem 0;
   }
   .introduction span {
     font-size: 2rem;

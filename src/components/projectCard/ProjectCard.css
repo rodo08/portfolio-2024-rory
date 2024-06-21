@@ -35,3 +35,9 @@
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px #ffa800);
 }
+
+@media (max-width: 750px) {
+  .projects-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
