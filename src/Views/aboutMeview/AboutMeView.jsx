@@ -1,3 +1,9 @@
+import "./AboutMeView.css";
+import { useNavigate } from "react-router-dom";
+import BasicButton from "../../components/basicButton/BasicButton";
+import Illustrator from "../../assets/icons/Illustrator";
+import Indesign from "../../assets/icons/Indesign";
+import Photoshop from "../../assets/icons/Photoshop";
 import { Aws } from "../../assets/icons/Aws";
 import { Bootstrap } from "../../assets/icons/Bootstrap";
 import { Css } from "../../assets/icons/Css";
@@ -5,20 +11,21 @@ import { Express } from "../../assets/icons/Express";
 import { Figma } from "../../assets/icons/Figma";
 import { Git } from "../../assets/icons/Git";
 import { Html } from "../../assets/icons/Html";
-import Illustrator from "../../assets/icons/Illustrator";
-import Indesign from "../../assets/icons/Indesign";
 import { Java } from "../../assets/icons/Java";
 import { Javascript } from "../../assets/icons/Javascript";
 import { Mongo } from "../../assets/icons/Mongo";
 import { Node } from "../../assets/icons/Node";
-import Photoshop from "../../assets/icons/Photoshop";
 import { React } from "../../assets/icons/React";
 import { Sass } from "../../assets/icons/Sass";
 import { Spring } from "../../assets/icons/Spring";
 import { Vue } from "../../assets/icons/Vue";
-import "./AboutMeView.css";
 
 const AboutMeView = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("../");
+  };
+
   return (
     <>
       <section className="about-me">
@@ -42,6 +49,7 @@ const AboutMeView = () => {
             </p>
 
             <div className="curriculum-vitae">
+              <h2>Get my CV for additional information:</h2>
               <a
                 href="../src/assets/docs/Rodrigo_Rosales_Moya_CV_2024.pdf"
                 download
@@ -114,6 +122,9 @@ const AboutMeView = () => {
             </ul>
           </div>
         </aside>
+        <div>
+          <BasicButton text="goBack" handleClick={handleGoBack} />
+        </div>
       </section>
     </>
   );

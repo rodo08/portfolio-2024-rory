@@ -1,12 +1,13 @@
 import App from "../App";
 import { createBrowserRouter } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import HomeView from "../Views/homeView/HomeView";
 import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import DesignSamples from "../components/designSamples/DesignSample";
 import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
-import { Outlet } from "react-router-dom";
 import AboutMeView from "../Views/aboutMeview/AboutMeView";
+import ContactView from "../Views/contactView/ContactView";
 
 const routes = [
   {
@@ -82,6 +83,10 @@ const routes = [
             element: <DesignSamples />,
           },
         ],
+      },
+      {
+        path: "contact",
+        element: <ContactView />,
       },
     ],
   },
