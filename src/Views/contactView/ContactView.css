@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 0 4rem 0;
+  margin-top: auto;
+}
+
+.contact h1 {
+  font-size: 2rem;
+}
+
+.contact p {
+  padding: 0.8rem 0 0 0;
+  color: #ad9c7c;
+  text-wrap: pretty;
+}
+.contact span {
+  color: #ffa800;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+}
+
+.contact form input {
+  margin: 0 0 2rem 0;
+}
+.contact form label {
+  margin: 0 0 0.5rem 0;
+}
+
+.contact form div {
+  display: flex;
+  flex-direction: column;
+}
