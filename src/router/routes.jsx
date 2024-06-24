@@ -3,11 +3,12 @@ import { createBrowserRouter } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import HomeView from "../Views/homeView/HomeView";
 import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
-import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import DesignSamples from "../components/designSamples/DesignSample";
 import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
+import EntelSamples from "../components/designSamples/EntelSamples";
 import AboutMeView from "../Views/aboutMeview/AboutMeView";
 import ContactView from "../Views/contactView/ContactView";
+import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 
 const routes = [
   {
@@ -52,7 +53,7 @@ const routes = [
           },
           {
             path: "entel",
-            element: <DesignSamples />,
+            element: <EntelSamples />,
           },
           {
             path: "mamut",
