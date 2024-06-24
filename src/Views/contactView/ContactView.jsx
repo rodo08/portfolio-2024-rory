@@ -1,16 +1,71 @@
 import "./ContactView.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import BasicButton from "../../components/basicButton/BasicButton";
 
 const ContactView = () => {
+  const formURL = import.meta.env.VITE_FORMCARRY_ENDPOINT;
   const navigate = useNavigate();
   const handleGoBack = () => {
     navigate("../");
   };
 
-  const sendMessage = (e) => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [emptyInputMessage, setEmptyInputMessage] = useState({
+    noName: "",
+    noEmail: "",
+    noMessage: "",
+  });
+
+  const handleChange = (e) => {
     e.preventDefault();
-    console.log("test");
+    const { name, value } = e.target;
+
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+
+    if (!formData.name) {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noName: "A name is required",
+      }));
+    } else {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noName: "",
+      }));
+    }
+
+    if (!formData.email) {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noEmail: "An email is required",
+      }));
+    } else {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noEmail: "",
+      }));
+    }
+
+    if (!formData.message) {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noMessage: "A message is required",
+      }));
+    } else {
+      setEmptyInputMessage((prev) => ({
+        ...prev,
+        noMessage: "",
+      }));
+    }
   };
 
   return (
@@ -29,17 +84,72 @@ const ContactView = () => {
             <span> *&#47;</span>
           </p>
         </div>
-        <form>
+        <form action={formURL} method="POST">
           <div>
-            <label htmlFor="">Name</label>
-            <input type="text" />
-            <label htmlFor="">Email</label>
-            <input type="text" />
+            <label htmlFor="name">Name</label>
+            <div style={{ position: "relative" }}>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
+              />
+              <span
+                style={{
+                  position: "absolute",
+                  color: "red",
+                  top: "2.2rem",
+                  fontSize: "0.9rem",
+                }}
+              >
+                {emptyInputMessage.noName}
+              </span>
+            </div>
+            <label htmlFor="email">Email</label>
+            <div style={{ position: "relative" }}>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+              />
+              <span
+                style={{
+                  position: "absolute",
+                  color: "red",
+                  top: "2.2rem",
+                  fontSize: "0.9rem",
+                }}
+              >
+                {emptyInputMessage.noEmail}
+              </span>
+            </div>
           </div>
-          <div>
-            <label htmlFor="">Message</label>
-            <textarea id="message" name="message" rows="5"></textarea>
-            <BasicButton text="send message" handleClick={sendMessage} />
+          <div style={{ position: "relative" }}>
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              rows="5"
+              value={formData.message}
+              onChange={handleChange}
+            ></textarea>
+            <BasicButton text="send message" type="submit" />
+            <span
+              style={{
+                top: " 9.8rem",
+                position: "absolute",
+                color: "red",
+                fontSize: "0.9rem",
+              }}
+            >
+              {emptyInputMessage.noMessage}
+            </span>
           </div>
         </form>
         <div>
@@ -49,4 +159,5 @@ const ContactView = () => {
     </>
   );
 };
+
 export default ContactView;
