@@ -7,19 +7,23 @@ const DesignSamples = ({
   icon1,
   icon2,
   icon3,
+  tasks,
+  summary,
   url1,
   url2,
   url3,
   url4,
   url5,
   url6,
-  tasks,
-  summary,
 }) => {
   const navigate = useNavigate();
   const handleDesignWorks = () => {
     navigate("../");
   };
+
+  const imageUrls = [url1, url2, url3, url4, url5, url6];
+  const allUrlsEmpty = imageUrls.every((url) => !url);
+
   return (
     <>
       <section>
@@ -37,12 +41,20 @@ const DesignSamples = ({
             <li>{icon3}</li>
           </ul>
           <p>{summary}</p>
-          <img src={url1} alt="Design work sample" />
-          <img src={url2} alt="Design work sample" />
-          <img src={url3} alt="Design work sample" />
-          <img src={url4} alt="Design work sample" />
-          <img src={url5} alt="Design work sample" />
-          <img src={url6} alt="Design work sample" />
+          {allUrlsEmpty ? (
+            <h2>#Updating works...</h2>
+          ) : (
+            imageUrls.map(
+              (url, index) =>
+                url && (
+                  <img
+                    key={index}
+                    src={url}
+                    alt={`Design work sample ${index + 1}`}
+                  />
+                )
+            )
+          )}
           <span>&#125;</span>
         </div>
         <div className="back-design-works">

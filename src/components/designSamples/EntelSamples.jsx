@@ -10,7 +10,7 @@ const PizzaHutSamples = () => {
       icon1={<Photoshop />}
       icon2={<Illustrator />}
       icon3={<Indesign />}
-      tasks={"#GraphicDesign #Marketing #Branding"}
+      tasks={"#ArtDirection #Marketing #Branding #Retail"}
       summary={
         "I created and developed graphics for advertisement in mixed media (such as magazines, brand displays, and store's requirements) working at the art direction and production department."
       }
