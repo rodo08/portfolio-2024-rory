@@ -6,6 +6,7 @@ import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
 import DesignSamples from "../components/designSamples/DesignSample";
 import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
 import EntelSamples from "../components/designSamples/EntelSamples";
+import TenaSamples from "../components/designSamples/TenaSamples";
 import AboutMeView from "../Views/aboutMeview/AboutMeView";
 import ContactView from "../Views/contactView/ContactView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
@@ -41,7 +42,7 @@ const routes = [
           },
           {
             path: "tena",
-            element: <DesignSamples />,
+            element: <TenaSamples />,
           },
           {
             path: "loreal",
