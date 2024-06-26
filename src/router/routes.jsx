@@ -10,6 +10,7 @@ import TenaSamples from "../components/designSamples/TenaSamples";
 import AboutMeView from "../Views/aboutMeview/AboutMeView";
 import ContactView from "../Views/contactView/ContactView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
+import LorealSamples from "../components/designSamples/LorealSamples";
 
 const routes = [
   {
@@ -46,7 +47,7 @@ const routes = [
           },
           {
             path: "loreal",
-            element: <DesignSamples />,
+            element: <LorealSamples />,
           },
           {
             path: "fridays",
