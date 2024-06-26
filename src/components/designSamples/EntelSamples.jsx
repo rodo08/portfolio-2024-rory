@@ -3,7 +3,7 @@ import Photoshop from "../../assets/icons/Photoshop";
 import Illustrator from "../../assets/icons/Illustrator";
 import Indesign from "../../assets/icons/Indesign";
 
-const PizzaHutSamples = () => {
+const EntelSamples = () => {
   return (
     <DesignSample
       title={"Entel"}
@@ -24,4 +24,4 @@ const PizzaHutSamples = () => {
   );
 };
 
-export default PizzaHutSamples;
+export default EntelSamples;

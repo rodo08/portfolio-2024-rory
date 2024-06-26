@@ -6,9 +6,15 @@ import WebProjectsView from "../Views/webProjectsView/WebProjectsView";
 import DesignSamples from "../components/designSamples/DesignSample";
 import PizzaHutSamples from "../components/designSamples/PizzaHutSamples";
 import EntelSamples from "../components/designSamples/EntelSamples";
+import TenaSamples from "../components/designSamples/TenaSamples";
 import AboutMeView from "../Views/aboutMeview/AboutMeView";
 import ContactView from "../Views/contactView/ContactView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
+import LorealSamples from "../components/designSamples/LorealSamples";
+import GreenLionSamples from "../components/designSamples/GreenLionSamples";
+import UdlaSamples from "../components/designSamples/UdlaSamples";
+import BancoEstadoSamples from "../components/designSamples/BancoEstadoSamples";
+import CapelSamples from "../components/designSamples/CapelSamples";
 
 const routes = [
   {
@@ -41,11 +47,11 @@ const routes = [
           },
           {
             path: "tena",
-            element: <DesignSamples />,
+            element: <TenaSamples />,
           },
           {
             path: "loreal",
-            element: <DesignSamples />,
+            element: <LorealSamples />,
           },
           {
             path: "fridays",
@@ -65,11 +71,11 @@ const routes = [
           },
           {
             path: "banco-estado",
-            element: <DesignSamples />,
+            element: <BancoEstadoSamples />,
           },
           {
             path: "udla",
-            element: <DesignSamples />,
+            element: <UdlaSamples />,
           },
           {
             path: "ventisquero",
@@ -77,11 +83,11 @@ const routes = [
           },
           {
             path: "capel",
-            element: <DesignSamples />,
+            element: <CapelSamples />,
           },
           {
             path: "green-lion",
-            element: <DesignSamples />,
+            element: <GreenLionSamples />,
           },
         ],
       },
