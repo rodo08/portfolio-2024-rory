@@ -11,6 +11,7 @@ import AboutMeView from "../Views/aboutMeview/AboutMeView";
 import ContactView from "../Views/contactView/ContactView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import LorealSamples from "../components/designSamples/LorealSamples";
+import GreenLionSamples from "../components/designSamples/GreenLionSamples";
 
 const routes = [
   {
@@ -83,7 +84,7 @@ const routes = [
           },
           {
             path: "green-lion",
-            element: <DesignSamples />,
+            element: <GreenLionSamples />,
           },
         ],
       },
