@@ -12,6 +12,7 @@ import ContactView from "../Views/contactView/ContactView";
 import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import LorealSamples from "../components/designSamples/LorealSamples";
 import GreenLionSamples from "../components/designSamples/GreenLionSamples";
+import UdlaSamples from "../components/designSamples/UdlaSamples";
 
 const routes = [
   {
@@ -72,7 +73,7 @@ const routes = [
           },
           {
             path: "udla",
-            element: <DesignSamples />,
+            element: <UdlaSamples />,
           },
           {
             path: "ventisquero",

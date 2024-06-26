@@ -2,7 +2,7 @@ import DesignSample from "./DesignSample";
 import Photoshop from "../../assets/icons/Photoshop";
 import Illustrator from "../../assets/icons/Illustrator";
 
-const PizzaHutSamples = () => {
+const TenaSamples = () => {
   return (
     <DesignSample
       title={"Tena"}
@@ -22,4 +22,4 @@ const PizzaHutSamples = () => {
   );
 };
 
-export default PizzaHutSamples;
+export default TenaSamples;

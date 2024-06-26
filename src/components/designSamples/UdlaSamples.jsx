@@ -5,19 +5,19 @@ import Illustrator from "../../assets/icons/Illustrator";
 const UdlaSamples = () => {
   return (
     <DesignSample
-      title={"Tena"}
+      title={"UDLA"}
       icon1={<Photoshop />}
       icon2={<Illustrator />}
-      tasks={"#ArtDirection #Marketing #Branding #Retail"}
+      tasks={"#ArtDirection #Retail"}
       summary={
-        "Created promotional graphics for Tena across web, print, and in-store, collaborating with marketing to ensure visually appealing, persuasive designs that conveyed confidence and comfort. "
+        "I designed print-ready graphics for the University de las Americas' admissions campaign, collaborating with the marketing team to convey academic excellence and student success. "
       }
-      url1={"https://imgur.com/fxGjqh3.png"}
-      url2={"https://imgur.com/WLvIqmv.png"}
-      url3={"https://imgur.com/rFvhEgN.png"}
-      url4={"https://imgur.com/eEmX7TG.png"}
-      url5={"https://imgur.com/fMgYLU5.png"}
-      url6={"https://imgur.com/tEac8Jw.png"}
+      url1={
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/874a0310523469.560e65b9ce736.jpg"
+      }
+      url2={
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f228f110523469.560e64aad5951.jpg"
+      }
     />
   );
 };
