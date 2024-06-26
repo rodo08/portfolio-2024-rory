@@ -14,6 +14,7 @@ import LorealSamples from "../components/designSamples/LorealSamples";
 import GreenLionSamples from "../components/designSamples/GreenLionSamples";
 import UdlaSamples from "../components/designSamples/UdlaSamples";
 import BancoEstadoSamples from "../components/designSamples/BancoEstadoSamples";
+import CapelSamples from "../components/designSamples/CapelSamples";
 
 const routes = [
   {
@@ -82,7 +83,7 @@ const routes = [
           },
           {
             path: "capel",
-            element: <DesignSamples />,
+            element: <CapelSamples />,
           },
           {
             path: "green-lion",
