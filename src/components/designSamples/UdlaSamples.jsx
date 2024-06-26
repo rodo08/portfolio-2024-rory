@@ -5,7 +5,7 @@ import Illustrator from "../../assets/icons/Illustrator";
 const UdlaSamples = () => {
   return (
     <DesignSample
-      title={"UDLA"}
+      title={"Universidad de las Americas"}
       icon1={<Photoshop />}
       icon2={<Illustrator />}
       tasks={"#ArtDirection #Retail"}

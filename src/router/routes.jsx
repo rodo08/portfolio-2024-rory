@@ -13,6 +13,7 @@ import DesignWorksView from "../Views/designWorksView/DesignWorksView";
 import LorealSamples from "../components/designSamples/LorealSamples";
 import GreenLionSamples from "../components/designSamples/GreenLionSamples";
 import UdlaSamples from "../components/designSamples/UdlaSamples";
+import BancoEstadoSamples from "../components/designSamples/BancoEstadoSamples";
 
 const routes = [
   {
@@ -69,7 +70,7 @@ const routes = [
           },
           {
             path: "banco-estado",
-            element: <DesignSamples />,
+            element: <BancoEstadoSamples />,
           },
           {
             path: "udla",
