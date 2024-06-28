@@ -34,7 +34,7 @@ const ContactView = () => {
     if (!formData.name) {
       setEmptyInputMessage((prev) => ({
         ...prev,
-        noName: "A name is required",
+        noName: "A full name is required",
       }));
     } else {
       setEmptyInputMessage((prev) => ({
