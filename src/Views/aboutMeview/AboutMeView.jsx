@@ -19,6 +19,7 @@ import { React } from "../../assets/icons/React";
 import { Sass } from "../../assets/icons/Sass";
 import { Spring } from "../../assets/icons/Spring";
 import { Vue } from "../../assets/icons/Vue";
+import { Mysql } from "../../assets/icons/Mysql";
 
 const AboutMeView = () => {
   const navigate = useNavigate();
@@ -97,6 +98,9 @@ const AboutMeView = () => {
               </li>
               <li className="icons-detail">
                 <Aws />
+              </li>
+              <li className="icons-detail">
+                <Mysql />
               </li>
               <li className="icons-detail">
                 <Mongo />
