@@ -52,7 +52,7 @@ const AboutMeView = () => {
             <div className="curriculum-vitae">
               <h2>Get my CV for additional information:</h2>
               <a
-                href="../src/assets/docs/Rodrigo_Rosales_Moya_CV_2024.pdf"
+                href="../../public/docs/Rodrigo_Rosales_Moya_CV_2024.pdf"
                 download
               >
                 <button>
