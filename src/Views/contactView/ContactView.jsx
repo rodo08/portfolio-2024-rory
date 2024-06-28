@@ -34,7 +34,7 @@ const ContactView = () => {
     if (!formData.name) {
       setEmptyInputMessage((prev) => ({
         ...prev,
-        noName: "A name is required",
+        noName: "A full name is required",
       }));
     } else {
       setEmptyInputMessage((prev) => ({
@@ -92,7 +92,7 @@ const ContactView = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Name"
+                placeholder="A full name is required"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -113,7 +113,7 @@ const ContactView = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email"
+                placeholder="An email is required"
                 value={formData.email}
                 onChange={handleChange}
               />
@@ -134,7 +134,7 @@ const ContactView = () => {
             <textarea
               id="message"
               name="message"
-              placeholder="Message"
+              placeholder="A message is required"
               rows="5"
               value={formData.message}
               onChange={handleChange}
