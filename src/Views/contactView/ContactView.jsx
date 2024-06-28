@@ -92,7 +92,7 @@ const ContactView = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Name"
+                placeholder="Your full name"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -113,7 +113,7 @@ const ContactView = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email"
+                placeholder="Your email address"
                 value={formData.email}
                 onChange={handleChange}
               />
@@ -134,7 +134,7 @@ const ContactView = () => {
             <textarea
               id="message"
               name="message"
-              placeholder="Message"
+              placeholder="Your message here"
               rows="5"
               value={formData.message}
               onChange={handleChange}
