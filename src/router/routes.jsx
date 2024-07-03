@@ -15,6 +15,7 @@ import GreenLionSamples from "../components/designSamples/GreenLionSamples";
 import UdlaSamples from "../components/designSamples/UdlaSamples";
 import BancoEstadoSamples from "../components/designSamples/BancoEstadoSamples";
 import CapelSamples from "../components/designSamples/CapelSamples";
+import VentisqueroSamples from "../components/designSamples/VentisqueroSamples";
 
 const routes = [
   {
@@ -79,7 +80,7 @@ const routes = [
           },
           {
             path: "ventisquero",
-            element: <DesignSamples />,
+            element: <VentisqueroSamples />,
           },
           {
             path: "capel",
