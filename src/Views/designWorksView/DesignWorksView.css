@@ -3,3 +3,21 @@
   flex-direction: column;
   margin-top: auto;
 }
+
+.project-card {
+  border: solid 1px #423722;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  /* filter: drop-shadow(0 0 10px #ffa800); */
+}
+
+.project-card svg {
+  position: absolute;
+  align-self: self-end;
+  margin: 0.5rem;
+  top: 0;
+}

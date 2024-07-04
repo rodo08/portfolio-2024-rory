@@ -6,6 +6,7 @@
 }
 
 .category-button span {
+  position: relative;
   color: #ffa800;
 }
 
