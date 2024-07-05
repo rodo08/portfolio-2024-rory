@@ -22,6 +22,17 @@ const WebProjectsView = () => {
 
         <ul className="projects-list">
           <ProjectCard
+            img={"https://imgur.com/nbvO2fs.png"}
+            figcaption={"Vertex"}
+            paragraph={
+              "Event management. Login / Register; create and list events, "
+            }
+            alt={"tarot app image"}
+            url={"https://vertex-events-project.netlify.app/"}
+            height={120}
+            width={120}
+          />
+          <ProjectCard
             img={
               "https://www.researchgate.net/profile/Giulia-Bini/publication/331639939/figure/fig2/AS:734865725063171@1552217050976/Template-and-propagation-of-the-Success-Kid-meme-source-Google-search-Sept-18.jpg"
             }
