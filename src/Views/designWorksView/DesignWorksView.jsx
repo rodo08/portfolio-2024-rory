@@ -55,7 +55,7 @@ const DesignWorksView = () => {
             "Explore my diverse collection of Graphic Design and Art Direction projects, highlighting skills and expertise."
           }
         />
-        <ul className="projects-list">
+        <ul className="projects-list design">
           <DesignSampleCard
             img={"https://imgur.com/CGKcb1T.png"}
             height={100}
