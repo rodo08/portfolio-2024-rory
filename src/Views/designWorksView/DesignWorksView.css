@@ -5,9 +5,12 @@
 }
 
 .project-card {
-  border: solid 1px #423722;
   border-radius: 0.5rem;
   transition: 0.3s ease;
+}
+
+.design > * {
+  border: solid 1px #423722;
 }
 
 .project-card:hover {
