@@ -25,10 +25,21 @@ const WebProjectsView = () => {
             img={"https://imgur.com/nbvO2fs.png"}
             figcaption={"Vertex"}
             paragraph={
-              "Event management. Login / Register; create and list events, "
+              "Event management. Login / Register; create and list events."
             }
-            alt={"tarot app image"}
+            alt={"vertex app image"}
             url={"https://vertex-events-project.netlify.app/"}
+            height={120}
+            width={120}
+          />
+          <ProjectCard
+            img={"https://imgur.com/muUMG1E.png"}
+            figcaption={"Tinder clone"}
+            paragraph={
+              "Tinder app features clone; register, login, swipe, match and chat. "
+            }
+            alt={"tinder clone app image"}
+            url={"https://tinderapp-clone.netlify.app/"}
             height={120}
             width={120}
           />
@@ -38,7 +49,7 @@ const WebProjectsView = () => {
             }
             figcaption={"Memerize"}
             paragraph={"Simple memory matching game featuring meme images"}
-            alt={"tarot app image"}
+            alt={"memerize app image"}
             url={"https://memerize.netlify.app/"}
             height={120}
             width={120}
