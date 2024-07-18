@@ -22,6 +22,17 @@ const WebProjectsView = () => {
 
         <ul className="projects-list">
           <ProjectCard
+            img={"https://i.postimg.cc/MpYCfg5n/previwork.png"}
+            figcaption={"Previwork"}
+            paragraph={
+              "Accredited External Prevention Service website (on development)."
+            }
+            alt={"vertex app image"}
+            url={"http://www.previwork.es/"}
+            height={120}
+            width={120}
+          />
+          <ProjectCard
             img={"https://imgur.com/nbvO2fs.png"}
             figcaption={"Vertex"}
             paragraph={
