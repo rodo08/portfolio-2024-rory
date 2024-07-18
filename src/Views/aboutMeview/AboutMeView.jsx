@@ -20,6 +20,7 @@ import { Sass } from "../../assets/icons/Sass";
 import { Spring } from "../../assets/icons/Spring";
 import { Vue } from "../../assets/icons/Vue";
 import { Mysql } from "../../assets/icons/Mysql";
+import { Wordpress } from "../../assets/icons/Wordepress";
 
 const AboutMeView = () => {
   const navigate = useNavigate();
@@ -107,6 +108,9 @@ const AboutMeView = () => {
               </li>
               <li className="icons-detail">
                 <Git />
+              </li>
+              <li className="icons-detail">
+                <Wordpress />
               </li>
               <li className="icons-detail">
                 <Figma />
