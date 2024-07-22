@@ -28,7 +28,7 @@ const WebProjectsView = () => {
               "Accredited External Prevention Service website (on development)."
             }
             alt={"vertex app image"}
-            url={"http://www.previwork.es/"}
+            url={"https://www.previwork.es/"}
             height={120}
             width={120}
           />
