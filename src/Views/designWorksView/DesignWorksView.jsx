@@ -57,73 +57,75 @@ const DesignWorksView = () => {
         />
         <ul className="projects-list design">
           <DesignSampleCard
-            img={"https://imgur.com/CGKcb1T.png"}
+            img={"https://i.postimg.cc/j2F5RrYW/pizzahut-squared-white.png"}
             height={100}
             width={100}
             onGoTo={handleGoPizzaHut}
           />
           <DesignSampleCard
-            img={"https://imgur.com/2LFE6GC.png"}
+            img={"https://i.postimg.cc/wT1M03DD/tena-white-01.png"}
             height={100}
             width={100}
             onGoTo={handleGoTena}
           />
           <DesignSampleCard
-            img={"https://imgur.com/WtwMkY1.png"}
+            img={"https://i.postimg.cc/63zq1vHf/Loreal-squared-white.png"}
             height={100}
             width={100}
             onGoTo={handleGoLoreal}
           />
           <DesignSampleCard
-            img={"https://imgur.com/UFBLjdo.png"}
+            img={"https://i.postimg.cc/nLBQTMb3/Fridays-logo-squared.png"}
             height={100}
             width={100}
             onGoTo={handleGoFridays}
           />
           <DesignSampleCard
-            img={"https://imgur.com/LQ7Q0Vz.png"}
+            img={"https://i.postimg.cc/rsndzrxw/logo-entel-512.png"}
             height={100}
             width={100}
             onGoTo={handleGoEntel}
           />
           <DesignSampleCard
-            img={"https://imgur.com/e4APU3Y.png"}
+            img={
+              "https://i.postimg.cc/52HzYnPd/ex8-QRhv-E5g2-L57cat-200-x-squared.png"
+            }
             height={100}
             width={100}
             onGoTo={handleGoMamut}
           />
           <DesignSampleCard
-            img={"https://imgur.com/uVFnxaX.png"}
+            img={"https://i.postimg.cc/GpxmHD1n/schopdog-round.png"}
             height={100}
             width={100}
             onGoTo={handleGoSchopdog}
           />
           <DesignSampleCard
-            img={"https://imgur.com/LeacJlX.png"}
+            img={"https://i.postimg.cc/sXH9XWSX/banco-estado-squared.png"}
             height={100}
             width={100}
             onGoTo={handleGoBancoEstado}
           />
           <DesignSampleCard
-            img={"https://imgur.com/td57onP.png"}
+            img={"https://i.postimg.cc/jdB59Khm/udla-squared.png"}
             height={100}
             width={100}
             onGoTo={handleGoUdla}
           />
           <DesignSampleCard
-            img={"https://imgur.com/tn1hEGl.png"}
+            img={"https://i.postimg.cc/nzdV1tzd/ventisquero-squared.png"}
             height={100}
             width={100}
             onGoTo={handleGoVentisquero}
           />
           <DesignSampleCard
-            img={"https://imgur.com/c86JjBU.png"}
+            img={"https://i.postimg.cc/3NKpkhqn/capel-squared.png"}
             height={100}
             width={100}
             onGoTo={handleGoCapel}
           />
           <DesignSampleCard
-            img={"https://imgur.com/Zhfanis.png"}
+            img={"https://i.postimg.cc/63K4PwBt/green-lion-01.png"}
             height={100}
             width={100}
             onGoTo={handleGoGreenLion}

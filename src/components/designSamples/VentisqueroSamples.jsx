@@ -14,11 +14,13 @@ const VentisqueroSamples = () => {
       summary={
         "Design of various graphic elements for Ventisquero, including logos, illustrations and other visual materials to promote their brand and products."
       }
-      url1={"https://imgur.com/3s7r4Op.png"}
-      url2={"https://imgur.com/3dksJPD.png"}
-      url3={"https://imgur.com/6GJlCH8.png"}
-      url4={"https://imgur.com/Dbz1QTj.png"}
-      url5={"https://imgur.com/yYiZRMn.png"}
+      url1={"https://i.postimg.cc/fRPHH6ky/42e40f16634807-5a4fdf23732d3.png"}
+      url2={
+        "https://i.postimg.cc/rwsnN8V7/10-7ce7644c-cca0-40c5-ae6b-ecb566f326c7n.png"
+      }
+      url3={
+        "https://i.postimg.cc/zvdwyggv/optimized_product_thumb_document-_42_.png"
+      }
     />
   );
 };

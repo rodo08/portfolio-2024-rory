@@ -12,12 +12,11 @@ const TenaSamples = () => {
       summary={
         "Created promotional graphics for Tena across web, print, and in-store, collaborating with marketing to ensure visually appealing, persuasive designs that conveyed confidence and comfort. "
       }
-      url1={"https://imgur.com/fxGjqh3.png"}
-      url2={"https://imgur.com/WLvIqmv.png"}
-      url3={"https://imgur.com/rFvhEgN.png"}
-      url4={"https://imgur.com/eEmX7TG.png"}
-      url5={"https://imgur.com/fMgYLU5.png"}
-      url6={"https://imgur.com/tEac8Jw.png"}
+      url1={"https://i.postimg.cc/m2XVD0Yj/646982199905039-66595daad5163.png"}
+      url2={"https://i.postimg.cc/hPLcR1VK/85bb2710483285-5a73628189312.jpg"}
+      url3={
+        "https://i.postimg.cc/nhX2Q0TJ/free-a4-magazine-mockup-FDR-310820-Prev3.png"
+      }
     />
   );
 };
