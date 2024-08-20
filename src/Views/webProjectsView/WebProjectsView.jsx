@@ -33,7 +33,7 @@ const WebProjectsView = () => {
             width={120}
           />
           <ProjectCard
-            img={"https://imgur.com/nbvO2fs.png"}
+            img={"https://i.postimg.cc/85YMDSQf/vertexlogopink-Ddib-SXV.png"}
             figcaption={"Vertex"}
             paragraph={
               "Event management. Login / Register; create and list events."
@@ -44,7 +44,7 @@ const WebProjectsView = () => {
             width={120}
           />
           <ProjectCard
-            img={"https://imgur.com/muUMG1E.png"}
+            img={"https://i.postimg.cc/26yhP5Jf/tinderflame-Ddib-SXV.png"}
             figcaption={"Tinder clone"}
             paragraph={
               "Tinder app features clone; register, login, swipe, match and chat. "
