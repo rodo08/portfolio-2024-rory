@@ -16,6 +16,7 @@ import UdlaSamples from "../components/designSamples/UdlaSamples";
 import BancoEstadoSamples from "../components/designSamples/BancoEstadoSamples";
 import CapelSamples from "../components/designSamples/CapelSamples";
 import VentisqueroSamples from "../components/designSamples/VentisqueroSamples";
+import AchsSamples from "../components/designSamples/AchsSamples";
 
 const routes = [
   {
@@ -41,6 +42,10 @@ const routes = [
           {
             path: "",
             element: <DesignWorksView />,
+          },
+          {
+            path: "achs",
+            element: <AchsSamples />,
           },
           {
             path: "pizza-hut",

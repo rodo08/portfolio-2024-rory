@@ -50,12 +50,12 @@
   font-weight: lighter;
   align-items: center;
   gap: 1.5rem;
-  color: #848484;
+  color: #ffffff;
   transition: 0.3s ease, transform 0.3s ease;
 }
 
 .cv-button:hover {
-  color: rgb(255, 255, 255);
+  color: #ffa800;
   transform: skewX(-15deg);
 }
 

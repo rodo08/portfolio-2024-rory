@@ -11,6 +11,6 @@
 }
 
 .category-button:hover {
-  color: rgb(255, 255, 255);
+  color: #ffa800;
   transform: skewX(-15deg);
 }
