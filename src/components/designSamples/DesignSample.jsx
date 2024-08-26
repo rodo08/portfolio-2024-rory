@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import BasicButton from "../basicButton/BasicButton";
 import "./DesignSamples.css";
 import { useNavigate } from "react-router-dom";
@@ -17,12 +18,29 @@ const DesignSamples = ({
   url6,
 }) => {
   const navigate = useNavigate();
+  const [loading, setLoading] = useState(true);
+
   const handleDesignWorks = () => {
     navigate("../");
   };
 
   const imageUrls = [url1, url2, url3, url4, url5, url6];
   const allUrlsEmpty = imageUrls.every((url) => !url);
+
+  useEffect(() => {
+    const imagePromises = imageUrls.map((url) => {
+      if (!url) return Promise.resolve();
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.src = url;
+        img.onload = resolve;
+      });
+    });
+
+    Promise.all(imagePromises).then(() => {
+      setLoading(false);
+    });
+  }, [imageUrls]);
 
   return (
     <>
@@ -41,7 +59,11 @@ const DesignSamples = ({
             <li>{icon3}</li>
           </ul>
           <p>{summary}</p>
-          {allUrlsEmpty ? (
+          {loading ? (
+            <div style={{ height: "140px", margin: "0 auto" }}>
+              <h1 style={{ fontSize: "2rem", color: "#ad9c7c" }}>Loading...</h1>
+            </div>
+          ) : allUrlsEmpty ? (
             <h2>#Updating works...</h2>
           ) : (
             imageUrls.map(
