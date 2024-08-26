@@ -9,6 +9,9 @@ const DesignWorksView = () => {
   const handleGoBack = () => {
     navigate("../");
   };
+  const handleGoAchs = () => {
+    navigate("achs");
+  };
   const handleGoPizzaHut = () => {
     navigate("pizza-hut");
   };
@@ -56,6 +59,12 @@ const DesignWorksView = () => {
           }
         />
         <ul className="projects-list design">
+          <DesignSampleCard
+            img={"https://i.postimg.cc/fRLLf3pm/logo-achs-2023-01-01-01.png"}
+            height={100}
+            width={100}
+            onGoTo={handleGoAchs}
+          />
           <DesignSampleCard
             img={"https://i.postimg.cc/j2F5RrYW/pizzahut-squared-white.png"}
             height={100}
