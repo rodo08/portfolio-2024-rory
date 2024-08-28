@@ -1,6 +1,6 @@
 .projects-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 2rem;
   column-gap: 1.5rem;
 }
@@ -26,6 +26,21 @@
   padding: 0.5rem 0 0 0;
   text-align: center;
   font-weight: 200;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-icons svg {
+  position: static !important;
 }
 
 @media (max-width: 750px) {
