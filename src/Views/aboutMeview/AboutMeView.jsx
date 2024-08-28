@@ -21,6 +21,8 @@ import { Spring } from "../../assets/icons/Spring";
 import { Vue } from "../../assets/icons/Vue";
 import { Mysql } from "../../assets/icons/Mysql";
 import { Wordpress } from "../../assets/icons/Wordepress";
+import Tailwindcss from "../../assets/icons/Tailwind";
+import Postgresql from "../../assets/icons/Postgresql";
 
 const AboutMeView = () => {
   const navigate = useNavigate();
@@ -66,63 +68,94 @@ const AboutMeView = () => {
             <ul className="stack-icons">
               <li className="icons-detail">
                 <Html />
+                <span>HTML</span>
               </li>
               <li className="icons-detail">
                 <Css />
+                <span>CSS</span>
               </li>
               <li className="icons-detail">
                 <Sass />
+                <span>Sass</span>
+              </li>
+              <li className="icons-detail">
+                <Tailwindcss />
+                <span>Tailwind CSS</span>
               </li>
               <li className="icons-detail">
                 <Javascript />
+                <span>JavaScript</span>
               </li>
               <li className="icons-detail">
                 <Bootstrap />
+                <span>Bootstrap</span>
               </li>
               <li className="icons-detail">
                 <React />
+                <span>React JS</span>
               </li>
               <li className="icons-detail">
                 <Vue />
+                <span>Vue JS</span>
               </li>
               <li className="icons-detail">
-                <Node />
+                <div style={{ padding: "10px 0" }}>
+                  <Node />
+                </div>
+                <span>Node JS</span>
               </li>
               <li className="icons-detail">
                 <Java />
+                <span>Java</span>
               </li>
               <li className="icons-detail">
-                <Spring />
+                <Spring height="60px" />
+                <span>Spring Boot</span>
               </li>
               <li className="icons-detail">
-                <Aws />
+                <div style={{ padding: "10px 0" }}>
+                  <Aws />
+                </div>
+                <span style={{ textAlign: "center" }}>Amazon W S</span>
               </li>
               <li className="icons-detail">
                 <Mysql />
+                <span>MySQL</span>
+              </li>
+              <li className="icons-detail">
+                <Postgresql />
+                <span>PostgreSQL</span>
               </li>
               <li className="icons-detail">
                 <Mongo />
+                <span>MongoDB</span>
               </li>
               <li className="icons-detail">
                 <Express />
+                <span>Express JS</span>
               </li>
               <li className="icons-detail">
                 <Git />
+                <span>Git</span>
               </li>
               <li className="icons-detail">
                 <Wordpress />
               </li>
               <li className="icons-detail">
                 <Figma />
+                <span>Figma</span>
               </li>
               <li className="icons-detail">
                 <Photoshop />
+                <span>Photoshop</span>
               </li>
-              <li className="icons-detail">
+              <li className="icons-detail" style={{ paddingBottom: "20px" }}>
                 <Illustrator />
+                <span>Illustrator</span>
               </li>
-              <li className="icons-detail">
+              <li className="icons-detail" style={{ paddingBottom: "20px" }}>
                 <Indesign />
+                <span>Indesign</span>
               </li>
             </ul>
           </div>

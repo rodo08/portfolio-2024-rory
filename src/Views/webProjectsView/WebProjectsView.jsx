@@ -3,6 +3,18 @@ import BasicButton from "../../components/basicButton/BasicButton";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import { useNavigate } from "react-router-dom";
 import ProjectHeader from "../../components/projectHeader/ProjectHeader";
+import { Wordpress } from "../../assets/icons/Wordepress";
+import { Figma } from "../../assets/icons/Figma";
+import { Mysql } from "../../assets/icons/Mysql";
+import { Vue } from "../../assets/icons/Vue";
+import { React } from "../../assets/icons/React";
+import { Html } from "../../assets/icons/Html";
+import { Css } from "../../assets/icons/Css";
+import { Javascript } from "../../assets/icons/Javascript";
+import { Spring } from "../../assets/icons/Spring";
+import Postgresql from "../../assets/icons/Postgresql";
+import { Express } from "../../assets/icons/Express";
+import Tailwindcss from "../../assets/icons/Tailwind";
 
 const WebProjectsView = () => {
   const navigate = useNavigate();
@@ -25,12 +37,48 @@ const WebProjectsView = () => {
             img={"https://i.postimg.cc/MpYCfg5n/previwork.png"}
             figcaption={"Previwork"}
             paragraph={
-              "Accredited External Prevention Service website (on development)."
+              "Accredited External Prevention Service website (Official website)."
             }
-            alt={"vertex app image"}
+            alt={"Previwork logo image"}
             url={"https://www.previwork.es/"}
             height={120}
             width={120}
+            icon1={<Figma height={20} />}
+            icon3={<Mysql height={20} style={{ marginLeft: "-10" }} />}
+            icon2={<Wordpress height={20} />}
+          />
+          <ProjectCard
+            img={"https://i.postimg.cc/VkPrzG0k/eclectica-isologo-01-01.jpg"}
+            figcaption={"Eclectica"}
+            paragraph={"Personal Social Media project; still on Development."}
+            alt={"vertex app image"}
+            url={"https://eclecticasite.netlify.app/"}
+            height={120}
+            width={120}
+            icon1={
+              <React
+                height={20}
+                style={{ marginLeft: "0", marginRight: "0" }}
+              />
+            }
+            icon2={
+              <Express
+                height={20}
+                style={{ marginLeft: "0", marginRight: "0" }}
+              />
+            }
+            icon3={
+              <Tailwindcss
+                height={20}
+                style={{ marginLeft: "0", marginRight: "0" }}
+              />
+            }
+            icon4={
+              <Postgresql
+                height={40}
+                style={{ marginLeft: "0", marginRight: "0" }}
+              />
+            }
           />
           <ProjectCard
             img={"https://i.postimg.cc/85YMDSQf/vertexlogopink-Ddib-SXV.png"}
@@ -42,34 +90,26 @@ const WebProjectsView = () => {
             url={"https://vertex-events-project.netlify.app/"}
             height={120}
             width={120}
-          />
-          <ProjectCard
-            img={"https://i.postimg.cc/26yhP5Jf/tinderflame-Ddib-SXV.png"}
-            figcaption={"Tinder clone"}
-            paragraph={
-              "Tinder app features clone; register, login, swipe, match and chat. "
+            icon1={
+              <Vue height={20} style={{ marginLeft: "0", marginRight: "0" }} />
             }
-            alt={"tinder clone app image"}
-            url={"https://tinderapp-clone.netlify.app/"}
-            height={120}
-            width={120}
-          />
-          <ProjectCard
-            img={
-              "https://www.researchgate.net/profile/Giulia-Bini/publication/331639939/figure/fig2/AS:734865725063171@1552217050976/Template-and-propagation-of-the-Success-Kid-meme-source-Google-search-Sept-18.jpg"
+            icon2={
+              <Spring
+                height={30}
+                style={{ marginLeft: "0", marginRight: "0" }}
+              />
             }
-            figcaption={"Memerize"}
-            paragraph={"Simple memory matching game featuring meme images"}
-            alt={"memerize app image"}
-            url={"https://memerize.netlify.app/"}
-            height={120}
-            width={120}
+            icon3={
+              <Css height={20} style={{ marginLeft: "0", marginRight: "0" }} />
+            }
+            icon4={<Mysql height={20} style={{ margin: "0" }} />}
           />
+
           <ProjectCard
             img={
               "https://apptomancy.netlify.app/assets/logo-tarot-01-Boq0li0P.png"
             }
-            figcaption={"Apptomancy: Tarot"}
+            figcaption={"Tarot App"}
             paragraph={
               "Tarot app: insightful, intuitive readings at your fingertips"
             }
@@ -77,32 +117,26 @@ const WebProjectsView = () => {
             url={"https://apptomancy.netlify.app/"}
             height={120}
             width={120}
-          />
-          <ProjectCard
-            img={
-              "https://media01.stockfood.com/previews/MTM0NDAyODgw/11200240.jpg"
+            icon1={<Figma height={20} />}
+            icon2={<React height={20} />}
+            icon3={
+              <Css height={20} style={{ marginLeft: "0", marginRight: "0" }} />
             }
-            figcaption={"Shoplistify"}
-            paragraph={
-              "A shopping app to list, filter, check, and delete items effortlessly"
-            }
-            alt={"Shoplistify image"}
-            url={"https://shoplistify.netlify.app/"}
-            height={120}
-            width={120}
           />
+
           <ProjectCard
             img={
               "https://img.freepik.com/free-photo/flat-lay-delicious-healthy-food-concept_23-2148648502.jpg"
             }
             figcaption={"Omnifood"}
-            paragraph={
-              "Food subscription service. Responsive web design for academics"
-            }
+            paragraph={"Food subscription service. Responsive web design"}
             alt={"Omnifood image"}
             url={"https://cssprojectomnifood.netlify.app/"}
             height={120}
             width={120}
+            icon1={<Html height={20} />}
+            icon2={<Css height={20} />}
+            icon3={<Javascript height={20} />}
           />
           <ProjectCard
             img={
@@ -116,6 +150,9 @@ const WebProjectsView = () => {
             url={"https://rrm-pokedex.netlify.app/"}
             height={120}
             width={120}
+            icon1={<Html height={20} />}
+            icon2={<Css height={20} />}
+            icon3={<Javascript height={20} />}
           />
         </ul>
 
