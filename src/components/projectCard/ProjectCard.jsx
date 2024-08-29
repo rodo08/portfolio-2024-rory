@@ -44,20 +44,17 @@ const ProjectCard = ({
             <img src={img} height={width} width={height} alt={alt} />
           </div>
           <figcaption>{figcaption}</figcaption>
-          <p style={{ paddingBottom: "0.5rem" }}>{paragraph}</p>
+          <p>{paragraph}</p>
           <ul className="tech-icons">
-            <div>
-              <li>{icon1}</li>
-              <li>{icon2}</li>
-              <li>{icon3}</li>
-              <li>{icon4}</li>
-            </div>
-            <div>
-              <li>{icon5}</li>
-              <li>{icon6}</li>
-              <li>{icon7}</li>
-              <li>{icon8}</li>
-            </div>
+            <li>{icon1}</li>
+            <li>{icon2}</li>
+            <li>{icon3}</li>
+            <li>{icon4}</li>
+
+            {/* <li>{icon5}</li>
+            <li>{icon6}</li>
+            <li>{icon7}</li>
+            <li>{icon8}</li> */}
           </ul>
         </>
       )}

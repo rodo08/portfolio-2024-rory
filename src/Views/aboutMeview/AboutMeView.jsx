@@ -116,7 +116,7 @@ const AboutMeView = () => {
                 <div style={{ padding: "10px 0" }}>
                   <Aws />
                 </div>
-                <span style={{ textAlign: "center" }}>Amazon W S</span>
+                <span style={{ textAlign: "center" }}>Amazon</span>
               </li>
               <li className="icons-detail">
                 <Mysql />
