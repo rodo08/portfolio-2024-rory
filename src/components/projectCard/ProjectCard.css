@@ -30,13 +30,18 @@
 
 .tech-icons {
   display: flex;
-  flex-direction: column;
+  gap: 0.3rem;
 }
 
-.tech-icons div {
+.tech-icons li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tech-icons div li {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .tech-icons svg {

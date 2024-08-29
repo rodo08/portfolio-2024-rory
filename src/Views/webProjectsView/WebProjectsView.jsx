@@ -43,9 +43,9 @@ const WebProjectsView = () => {
             url={"https://www.previwork.es/"}
             height={120}
             width={120}
-            icon1={<Figma height={20} />}
-            icon3={<Mysql height={20} style={{ marginLeft: "-10" }} />}
-            icon2={<Wordpress height={20} />}
+            icon1={<Figma height={18} style={{ margin: "0" }} />}
+            icon2={<Wordpress width={20} style={{ margin: "0" }} />}
+            icon3={<Mysql width={30} />}
           />
           <ProjectCard
             img={"https://i.postimg.cc/VkPrzG0k/eclectica-isologo-01-01.jpg"}
@@ -55,30 +55,10 @@ const WebProjectsView = () => {
             url={"https://eclecticasite.netlify.app/"}
             height={120}
             width={120}
-            icon1={
-              <React
-                height={20}
-                style={{ marginLeft: "0", marginRight: "0" }}
-              />
-            }
-            icon2={
-              <Express
-                height={20}
-                style={{ marginLeft: "0", marginRight: "0" }}
-              />
-            }
-            icon3={
-              <Tailwindcss
-                height={20}
-                style={{ marginLeft: "0", marginRight: "0" }}
-              />
-            }
-            icon4={
-              <Postgresql
-                height={40}
-                style={{ marginLeft: "0", marginRight: "0" }}
-              />
-            }
+            icon1={<React width={15} style={{ margin: "0" }} />}
+            icon2={<Tailwindcss width={20} />}
+            icon3={<Express width={40} style={{ margin: "0" }} />}
+            icon4={<Postgresql width={20} />}
           />
           <ProjectCard
             img={"https://i.postimg.cc/85YMDSQf/vertexlogopink-Ddib-SXV.png"}
@@ -90,19 +70,10 @@ const WebProjectsView = () => {
             url={"https://vertex-events-project.netlify.app/"}
             height={120}
             width={120}
-            icon1={
-              <Vue height={20} style={{ marginLeft: "0", marginRight: "0" }} />
-            }
-            icon2={
-              <Spring
-                height={30}
-                style={{ marginLeft: "0", marginRight: "0" }}
-              />
-            }
-            icon3={
-              <Css height={20} style={{ marginLeft: "0", marginRight: "0" }} />
-            }
-            icon4={<Mysql height={20} style={{ margin: "0" }} />}
+            icon1={<Vue width={15} />}
+            icon2={<Spring width={35} style={{ margin: "0" }} />}
+            icon3={<Css width={20} />}
+            icon4={<Mysql width={30} />}
           />
 
           <ProjectCard
@@ -117,11 +88,9 @@ const WebProjectsView = () => {
             url={"https://apptomancy.netlify.app/"}
             height={120}
             width={120}
-            icon1={<Figma height={20} />}
-            icon2={<React height={20} />}
-            icon3={
-              <Css height={20} style={{ marginLeft: "0", marginRight: "0" }} />
-            }
+            icon1={<Figma height={18} style={{ margin: "0" }} />}
+            icon2={<React width={15} style={{ margin: "0" }} />}
+            icon3={<Css width={20} />}
           />
 
           <ProjectCard
@@ -134,9 +103,9 @@ const WebProjectsView = () => {
             url={"https://cssprojectomnifood.netlify.app/"}
             height={120}
             width={120}
-            icon1={<Html height={20} />}
-            icon2={<Css height={20} />}
-            icon3={<Javascript height={20} />}
+            icon1={<Html width={20} />}
+            icon2={<Css width={20} />}
+            icon3={<Javascript width={18} />}
           />
           <ProjectCard
             img={
@@ -150,9 +119,9 @@ const WebProjectsView = () => {
             url={"https://rrm-pokedex.netlify.app/"}
             height={120}
             width={120}
-            icon1={<Html height={20} />}
-            icon2={<Css height={20} />}
-            icon3={<Javascript height={20} />}
+            icon1={<Html width={20} />}
+            icon2={<Css width={20} />}
+            icon3={<Javascript width={18} />}
           />
         </ul>
 
