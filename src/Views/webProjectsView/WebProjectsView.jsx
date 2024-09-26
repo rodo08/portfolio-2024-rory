@@ -60,21 +60,6 @@ const WebProjectsView = () => {
             icon3={<Express width={40} style={{ margin: "0" }} />}
             icon4={<Postgresql width={20} />}
           />
-          <ProjectCard
-            img={"https://i.postimg.cc/85YMDSQf/vertexlogopink-Ddib-SXV.png"}
-            figcaption={"Vertex"}
-            paragraph={
-              "Event management. Login / Register; create and list events."
-            }
-            alt={"vertex app image"}
-            url={"https://vertex-events-project.netlify.app/"}
-            height={120}
-            width={120}
-            icon1={<Vue width={15} />}
-            icon2={<Spring width={35} style={{ margin: "0" }} />}
-            icon3={<Css width={20} />}
-            icon4={<Mysql width={30} />}
-          />
 
           <ProjectCard
             img={
