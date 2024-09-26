@@ -78,23 +78,6 @@ const WebProjectsView = () => {
 
           <ProjectCard
             img={
-              "https://apptomancy.netlify.app/assets/logo-tarot-01-Boq0li0P.png"
-            }
-            figcaption={"Tarot App"}
-            paragraph={
-              "Tarot app: insightful, intuitive readings at your fingertips"
-            }
-            alt={"tarot app image"}
-            url={"https://apptomancy.netlify.app/"}
-            height={120}
-            width={120}
-            icon1={<Figma height={18} style={{ margin: "0" }} />}
-            icon2={<React width={15} style={{ margin: "0" }} />}
-            icon3={<Css width={20} />}
-          />
-
-          <ProjectCard
-            img={
               "https://img.freepik.com/free-photo/flat-lay-delicious-healthy-food-concept_23-2148648502.jpg"
             }
             figcaption={"Omnifood"}

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import BasicButton from "../basicButton/BasicButton";
 import "./DesignSamples.css";
 import { useNavigate } from "react-router-dom";
+import Loader from "../Loader";
 
 const DesignSamples = ({
   title,
@@ -60,8 +61,26 @@ const DesignSamples = ({
           </ul>
           <p>{summary}</p>
           {loading ? (
-            <div style={{ height: "140px", margin: "0 auto" }}>
-              <h1 style={{ fontSize: "2rem", color: "#ad9c7c" }}>Loading...</h1>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "140px",
+                gap: "1rem",
+                margin: "0 auto",
+              }}
+            >
+              <h1
+                style={{
+                  fontSize: "2rem",
+                  color: "#ad9c7c",
+                  padding: "2rem 0",
+                }}
+              >
+                Loading
+              </h1>
+              <Loader />
             </div>
           ) : allUrlsEmpty ? (
             <h2>#Updating works...</h2>
