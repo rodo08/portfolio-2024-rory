@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Brands.css";
+import Loader from "../Loader";
 
 const brandsData = [
   {
@@ -85,12 +86,31 @@ const Brands = () => {
   return (
     <aside className="brands">
       <h3>Brands I&apos;ve Collaborated With:</h3>
-      <ul className="brands-list">
+      <ul className="brands-list" style={{ position: "relative" }}>
         {!isLoading ? (
           brandsImgs
         ) : (
-          <div style={{ height: "140px", position: "absolute" }}>
-            <h1 style={{ fontSize: "2rem", color: "#ad9c7c" }}>Loading...</h1>
+          <div
+            style={{
+              position: "absolute",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "120px",
+              width: "100%",
+              gap: "1rem",
+            }}
+          >
+            <h1
+              style={{
+                fontSize: "2rem",
+                color: "#ad9c7c",
+                padding: "2rem 0",
+              }}
+            >
+              Loading
+            </h1>
+            <Loader />
           </div>
         )}
       </ul>
